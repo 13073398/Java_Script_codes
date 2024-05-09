@@ -1,0 +1,55 @@
+
+
+
+
+
+
+
+
+
+/*
+  DOM [Traversing]
+  - nextSibling
+  - previousSibling
+  - nextElementSibling
+  - previousElementSibling
+  - parentElement
+*/
+
+
+
+HTML:
+ <div id="my div">
+    <span class="one">One</span>
+    <!--comment-->
+    <span class="two">two</span>
+      <!--comment-->
+      <span class="three">three</span>
+
+  </div>
+
+
+
+
+
+
+
+java:
+let mohamed=document.querySelector(".two");
+// console.log(mohamed)
+// // to get the next prother
+// console.log(mohamed.nextSibling)
+// // to get the next element
+// console.log(mohamed.nextElementSibling)
+// to get the next element  to remove
+// console.log(mohamed.nextElementSibling.remove())
+//// // to get the  previous  prother
+// console.log(mohamed.previousSibling)
+// //// // to get the  previous  element
+// console.log(mohamed.previousElementSibling)
+// // to get the parent element
+// console.log(mohamed.parentElement)
+// // Ex: to make something  in the element
+// mohamed.onclick= function () {
+//   mohamed.parentElement.style.opacity='0';
+// }

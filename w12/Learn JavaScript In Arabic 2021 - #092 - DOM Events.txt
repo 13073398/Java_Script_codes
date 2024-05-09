@@ -1,0 +1,36 @@
+/*
+  DOM [Events]
+  - Use Events On HTML
+  - Use Events On JS
+  --- onclick
+  --- oncontextmenu// Right Menue
+  --- onmouseenter
+  --- onmouseleave
+
+  --- onload
+  --- onscroll
+  --- onresize
+
+  --- onfocus
+  --- onblur
+  --- onsubmit
+*/
+
+
+  <!--Using event in HTML-->
+<button onclick="console.log(`Mohamed Samir`)">Button</button>
+
+
+//Using event in java 
+let myBtn=document.getElementById("Mohamed");
+myBtn.onclick=function(){
+   console.log(`Mohamed Samir`)
+}
+
+
+window.onscroll=function(){
+  console.log(`Scroll`)
+}
+
+
+

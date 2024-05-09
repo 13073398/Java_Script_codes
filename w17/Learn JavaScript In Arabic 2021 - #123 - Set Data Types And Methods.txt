@@ -1,0 +1,73 @@
+/*
+  - Set Data Type
+  Syntax: new Set(Iterable)
+  -- Object To Store Unique Values
+  -- Cannot Access Elements By Index
+
+  Properties:
+  - size
+
+  Methods:
+  - add
+  - delete
+  - clear
+  - has
+*/
+
+let myData = [1, 1, 1, 2, 3, "A"];
+// let myUniqueData = new Set([1, 1, 1, 2, 3]);
+// let myUniqueData = new Set(myData);
+// let myUniqueData = new Set().add(1).add(1).add(1).add(2).add(3);
+let myUniqueData = new Set();
+
+myUniqueData.add(1).add(1).add(1);
+myUniqueData.add(2).add(3).add("A");
+
+console.log(`Is Set Has => A ${myUniqueData.has("a".toUpperCase())}`);
+
+console.log(myData);
+console.log(myUniqueData);
+
+console.log(myUniqueData.size);
+
+console.log(myData[0]);
+console.log(myUniqueData[0]);
+
+// myUniqueData.delete(2);
+console.log(myUniqueData.delete(2));
+
+console.log(myUniqueData);
+console.log(myUniqueData.size);
+
+myUniqueData.clear();
+
+console.log(myUniqueData);
+console.log(myUniqueData.size);
+
+
+
+                                             my work
+
+
+let myData=[1,1,1,2,3,"A"]
+// add method One
+let newData=new Set([1,1,1,2,3,"A"]);
+// add method two
+// let newData=new Set(myData)
+// add method three
+// let newData=new Set();
+// newData.add(1).add(1).add(1).add(2).add(3)
+// delete method
+// newData.delete(2)
+// console.log(newData.delete(2))
+  // console.log(myData);
+  // console.log(newData)
+  // console.log(newData.size)
+// to delete all element
+// newData.clear()
+// to search about element
+console.log(newData.has("A"))
+
+
+console.log(newData)
+console.log(newData.size)

@@ -1,0 +1,5 @@
+  // Code One => How To Get Object Length ?
+//   let objectLength = Object.keys(myFavGames).length;   
+
+Check If Nested Object Has Property 
+(Object.hasOwn(myFavGames[game[i]],"bestThree")) 

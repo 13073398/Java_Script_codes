@@ -1,0 +1,20 @@
+
+
+all  types of selectors   
+
+
+let one=document.querySelector("#elzero")--  By ID
+let two=document.querySelector(".element")--bY CLASS
+let three=document.querySelector("[name = 'js']");-- By name
+let four=document.querySelector("div")-- By name tag   can make event
+let five=document.querySelectorAll("[name = 'js']")[0]--By name
+let six=document.querySelectorAll("#elzero")[0]--By ID
+let seven=document.querySelectorAll(".element")[0]--By class
+let eight=document.querySelectorAll("div")[0]--By name tag  can make event
+let ten=document.getElementById("elzero") can make event
+let eleven=document.getElementsByClassName("element")[0]
+let twelve=document.getElementsByTagName("div")[0] can make event
+let thriteen=document.getElementsByName("js")[0] can make event
+let nine=document.body.firstChild;
+let forteen=document.body.children[0]
+let fifteen=document.body.childNodes[0]

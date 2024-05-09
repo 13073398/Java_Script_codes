@@ -1,0 +1,34 @@
+/*
+  DOM [Get / Set Elements Content And Attributes]
+  - innerHTML
+  - textContent
+  - Change Attributes Directly
+  - Change Attributes With Methods
+  --- getAttribute
+  --- setAttribute
+
+  Search
+  - innerText
+*/
+
+
+let MyElement=document.querySelector(".js");
+console.log(MyElement)
+// to retrive all the element with its text content
+console.log(MyElement.innerHTML)
+//to set text in the element beside create element
+MyElement.innerHTML="text from<span>Main.js</span> file"
+//to retrive  only text content inside the element without element
+console.log(MyElement.textContent)
+//to set  just text in the element and convert element tag  to text
+MyElement.textContent="text from<span>Main.js</span> file"
+// to set the source of image source
+document.images[0].src="https://Google.com";
+// to set the source  alternate of image source
+document.images[0].alt="alternate"
+// to set title
+document.images[0].title="pictures"
+// to set class name
+document.images[0].className="PIC"
+//to set id
+document.images[0].id="momo"

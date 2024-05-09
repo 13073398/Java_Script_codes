@@ -1,0 +1,52 @@
+
+/*
+  BOM [Browser Object Model]
+  - location Object
+  --- href Get / Set [URL || Hash || File || Mail]
+  --- host
+  --- hash
+  --- protocol
+  --- reload()
+  --- replace()
+  --- assign()
+*/
+
+
+
+
+
+
+
+
+// to get location of th html page
+// console.log(location.href)
+// to set location of th html page
+// location.href="https://www.google.com.eg/"
+// to set to sepecif link
+// location.href="/#sec01"
+
+// location.href="https://developer.mozilla.org/en-US/docs/Learn/HTML"
+// get and set host name
+// console.log(location.host);
+// console.log(location.hostname)
+
+//  to set and get protocool
+// console.log(location.protocol)
+// location.protocol="https"
+
+
+// to get hash 
+// console.log(location.hash);
+// location.href="/#sec2"
+
+// to make reload  to the page   
+
+// location.reload()
+
+//change the location of the page and delete teh history
+
+// location.replace("https://www.google.com.eg/")
+
+//change the location of the page and  without delete teh history
+
+// location.assign("https://www.google.com.eg/")

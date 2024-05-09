@@ -1,0 +1,28 @@
+
+/*
+  DOM [Deal With Childrens]
+  - children
+  - childNodes
+  - firstChild
+  - lastChild
+  - firstElementChild
+  - lastElementChild
+*/
+
+
+
+let mohamed=document.querySelector("div");
+console.log(mohamed)
+// to get child elements
+console.log(mohamed.children)
+// to get to sup  element child
+console.log(mohamed.children[0])
+//to get sub element and it is  text
+console.log(mohamed.childNodes)
+//to get sub specific element and it is  text
+console.log(mohamed.childNodes[0])
+
+console.log(mohamed.firstChild)
+console.log(mohamed.lastChild)
+console.log(mohamed.firstElementChild)
+console.log(mohamed.lastElementChild)

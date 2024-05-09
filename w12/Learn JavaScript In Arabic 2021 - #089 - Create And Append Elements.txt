@@ -1,0 +1,36 @@
+
+
+/*
+  DOM [Create Elements]
+  - createElement
+  - createComment
+  - createTextNode
+  - createAttribute
+  - appendChild
+*/
+
+
+
+//to create element
+let myElement=document.createElement("div")
+// to create attribute-method One
+let myAttr=document.createAttribute("data-custom");
+// to create text  to element
+let myText=document.createTextNode("Product One")
+// to set comment to element
+let mycomment=document.createComment("This IS My Div")
+
+// to set class to the element
+myElement.className="Product"
+//to set attribute to element method one
+myElement.setAttributeNode(myAttr)
+//to set attribute to element method two
+myElement.setAttribute("Data-test","testing")
+console.log(myElement)
+// Append comment to element
+myElement.appendChild(mycomment)
+//append text to element
+myElement.appendChild(myText);
+
+//Append element to Body
+document.body.appendChild(myElement)

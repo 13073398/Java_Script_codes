@@ -1,0 +1,45 @@
+			
+
+
+/*
+  DOM [Class List]
+  - classList
+  --- length
+  --- contains
+  --- item(index)
+  --- add
+  --- remove
+  --- toggle
+*/
+
+
+
+HTML:
+
+<div id="my-div" class="one two show test">My div from java </div>
+
+
+let elMent=document.getElementById("my-div");
+console.log(elMent)
+// to show  class list
+console.log(elMent.classList)
+// to show type of class list
+console.log( typeof elMent.classList)
+// to check on speceific class value on class list
+console.log(elMent.classList.contains("osama"))
+console.log(elMent.classList.contains("two"))
+// to check on the class value by index number
+console.log(elMent.classList.item("3"))
+// to add class value
+//  elMent.onclick = function () {
+//   elMent.classList.add("Omnya_one","mohamed")
+//  }
+ // to remove class  value
+//  elMent.onclick = function () {
+//   elMent.classList.remove("one")
+//  }
+
+ // to remove and add class value  
+ elMent.onclick = function () {
+  elMent.classList.toggle("one")
+ }

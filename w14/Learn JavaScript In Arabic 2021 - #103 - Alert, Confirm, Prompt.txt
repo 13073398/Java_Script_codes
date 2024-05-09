@@ -1,0 +1,32 @@
+
+
+
+/*
+  BOM [Browser Object Model]
+  - alert(Message) => Need No Response Only Ok Available
+  - confirm(Message) => Need Response And Return A Boolean
+  - prompt(Message, Default Message) => Collect Data
+*/
+
+
+
+
+
+
+//  to make alert  message window.onload
+// alert("Love Olaa alaa")
+// console.log("Love olaa alaa")
+
+//  confirm messgae
+// let confirmMsg=confirm("Are you sure?");
+
+// if(confirmMsg===true){
+//   console.log("item deleted")
+// }else{
+//   console.log("item not deleted")
+// }
+//  propmit message 
+
+// 
+// promtMsg=prompt("Good Day for you","palceholder");
+// console.log(promtMsg)

@@ -1,0 +1,52 @@
+
+/*
+  BOM [Browser Object Model]
+  Local Storage
+  - setItem
+  - getItem
+  - removeItem
+  - clear
+  - key
+
+  Info
+  - No Expiration Time
+  - HTTP And HTTPS
+  - Private Tab
+*/
+
+
+
+
+
+
+
+
+
+
+
+//to set localstorage
+//Method One
+window.localStorage.setItem("color","red");
+//Method Two
+window.localStorage.fontWeight="bold";
+//Method Three
+window.localStorage["fontSize"]="20px"
+
+// to get localstorage
+//Method One
+console.log(window.localStorage.getItem("color"))
+//Method Two
+console.log(window.localStorage.color)
+//Method Three
+console.log(window.localStorage["color"])
+// to get key of local loclaStroage 
+console.log(window.localStorage.key(0 ))
+
+// to remove localstrorage
+window.localStorage.removeItem("color")
+
+// to remove all localStorage
+window.localStorage.clear();
+
+ // to set localStrorgae to the page
+ document.body.style.backgroundColor=window.localStorage.getItem("color")

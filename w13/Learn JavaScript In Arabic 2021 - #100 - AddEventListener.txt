@@ -1,0 +1,72 @@
+
+
+
+/*
+  DOM [Add Event Listener]
+  - addEventListener
+  - Use Without On
+  - Attach Multiple Events
+  - Error Test
+
+  Search
+  - Capture & Bubbling JavaScript
+  - removeEventListener
+*/
+
+
+
+
+html in java:
+let div=document.createElement("div");
+let para= document.createElement("p");
+let text=document.createTextNode("mohamed");
+para.appendChild(text); 
+div.appendChild(para)
+document.body.appendChild(div)
+
+
+
+
+
+
+java:
+
+/ function one(){
+//   console.log(`love Olaa -one`)
+// }
+
+// function two(){
+//   console.log(`love Olaa -two`)
+// }
+
+
+//  to add Event to the element and make more than one event in the same element
+
+// para.addEventListener("click", function(){
+//   console.log(`love Olaa add event`)
+// });
+// para.addEventListener("click",one)
+// para.addEventListener("click",two)
+
+
+// to make action on evenet taht not created
+
+// div.onclick = function (){
+//   let newpara=para.cloneNode(true);
+//   newpara.className="clone"
+//   document.body.appendChild(newpara);
+// }
+// let cloned=document.querySelector(".clone");
+
+// // cloned.onclick = function () { // Erroe
+// //   console.log (`hi`)
+// // }
+
+// document.addEventListener("click",function(e){
+//   if(e.target.className==="clone"){
+//     console.log (`hi clone`)
+//   }
+// })
+
+
+

@@ -1,0 +1,65 @@
+/*
+  - Map Data Type
+  Methods
+  --- set
+  --- get
+  --- delete
+  --- clear
+  --- has
+
+  Properties
+  --- size
+*/
+
+let myMap = new Map([
+  [10, "Number"],
+  ["Name", "String"],
+  [false, "Boolean"],
+]);
+
+// myMap.set(10, "Number");
+// myMap.set("Name", "String");
+
+console.log(myMap);
+
+console.log(myMap.get(10));
+console.log(myMap.get("Name"));
+console.log(myMap.get(false));
+
+console.log("####");
+
+console.log(myMap.has("Name"));
+
+console.log("####");
+
+console.log(myMap.size);
+
+console.log(myMap.delete("Name"));
+
+console.log(myMap.size);
+
+myMap.clear();
+
+console.log(myMap.size);
+
+
+                            my work
+// to add value   method One
+// let mohamd=new Map()
+// mohamed.set(10,"number");,
+// mohamed.set("10","string");
+// to seach 
+// console.log(`"*****"`)
+// console.log(mohamed.has(false))
+// console.log("*****")
+// console.log(mohamed)
+// console.log(mohamed.get(10))
+// console.log(mohamed.get("10"))
+// console.log(mohamed.get(false))
+// console.log(mohamed.size);
+// // to make delete
+// console.log(mohamed.delete("namee"))
+// console.log(mohamed.size);
+// // to make clear for all elements
+// mohamed.clear()
+// console.log(mohamed.size);

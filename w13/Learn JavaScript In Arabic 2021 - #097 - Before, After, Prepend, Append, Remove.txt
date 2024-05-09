@@ -1,0 +1,37 @@
+
+
+/*
+  DOM [Deal With Elements]
+  - before [Element || String]
+  - after [Element || String]
+  - append [Element || String]
+  - prepend [Element || String]
+  - remove
+*/
+
+
+
+
+
+let moahmed=document.getElementById("my-div");
+let parap=document.createElement("p")
+let textpap=document.createTextNode("love olaa");
+parap.appendChild(textpap)
+// add text before element
+moahmed.before("Hello from js")
+// add text after element
+moahmed.after("Hello from css")
+// add element after current element
+// moahmed.after(parap)
+// add element before current element
+// moahmed.before(parap)
+// to set text in the element after the exist one
+moahmed.append("  hi olaa my wife ")
+// to set element in the  current element after the current one
+// moahmed.append(parap)
+// to set text in the element before the exist one
+moahmed.prepend("my love olaa ")
+// to set element in the  current element before the current one
+moahmed.prepend(parap)
+// to remove element from document
+moahmed.remove();

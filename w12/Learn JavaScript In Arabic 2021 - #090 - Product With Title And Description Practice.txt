@@ -1,0 +1,33 @@
+/*
+  DOM [Create Elements]
+  - Practice Product With Heading And Paragraph
+*/
+
+
+
+let myMainelement=document.createElement("div");
+let myHeading=document.createElement("h2");
+let myparagraph=document.createElement("p")
+
+// create Text inside element
+let myHeadingtext=document.createTextNode("Product Title")
+let myparagraphtext=document.createTextNode("Product Description")
+
+//add text to the Heading (h2) of main element
+myHeading.appendChild(myHeadingtext)
+// add heading to the main element
+myMainelement.appendChild(myHeading)
+
+// add text to the paragraph (P) of the main element
+myparagraph.appendChild(myparagraphtext);
+//add paragraph (p)  element to the main element(div)
+myMainelement.appendChild(myparagraph);
+
+
+// create class to the element
+myMainelement.className="product"
+
+
+
+// add  elements  to the body
+document.body.appendChild(myMainelement)

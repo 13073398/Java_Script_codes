@@ -1,0 +1,41 @@
+/*
+  Date And Time
+  - getTime() => Number Of Milliseconds
+  - getDate() => Day Of The Month
+  - getFullYear()
+  - getMonth() => Zero Based
+  - getDay() => Day Of The Week
+  - getHours()
+  - getMinutes()
+  - getSeconds()
+*/
+
+let dateNow = new Date();
+let birthday = new Date("Oct 25, 82");
+let dateDiff = dateNow - birthday;
+
+console.log(dateDiff);
+console.log(dateDiff / 1000 / 60 / 60 / 24 / 365);
+
+console.log(dateNow);
+console.log(dateNow.getTime());
+console.log(dateNow.getDate());
+console.log(dateNow.getFullYear());
+console.log(dateNow.getMonth());
+console.log(dateNow.getDay());
+console.log(dateNow.getHours());
+console.log(dateNow.getMinutes());
+console.log(dateNow.getSeconds());
+
+                         my work
+ let Omnya =new Date;
+ console.log(Omnya.getTime())//  the time  know in mil seconds from 1-1-1970
+ console.log(Omnya.getDate())//  the day in the month   
+ console.log(Omnya.getUTCFullYear());
+ console.log(Omnya.getMonth())// the index of the month
+ console.log(Omnya.getDay())// the index of the day in the week ;
+ console.log(Omnya.getHours())
+ console.log(Omnya.getMinutes())
+ console.log(Omnya.getSeconds())
+
+
